@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" apprev="21010" hassounds="1" appversion="7.1.11">
+  <panorama id="node1">
+    <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="-1.6000000000000001" leveltilesize="510" levelbias="0.400" width="1344" levelbiashidpi="1.000" levelingroll="-5.5999999999999996" overlap="1" height="1344">
+      <level preload="0" predecode="0" width="1344" height="1344"/>
+      <level preload="0" predecode="0" width="672" height="672"/>
+      <level preload="1" predecode="1" width="336" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="225">
+      <start tilt="0" pan="0" projection="4" fov="100"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fov="140" fovfisheye="360" fovstereographic="330"/>
+    </view>
+    <userdata longitude="30.295422" nodeid="node1" info="" altitude="9.73" copyright="" latitude="59.929836" tags="" title="" source="" customnodeid="" description="" comment="" datetime="14.10.2025 17:45" author="" heading="225"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label backgroundalpha="1" wordwrap="1" enabled="1" background="1" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" width="180" border="1" textalpha="1" height="20"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <polyhotspot url="{node2}" id="Poly01" description="" target="" title="Холл">
+        <polystring>-305.77/33.96|-307.1/-7.2|-341.88/-6.28|-340.79/45.45</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <sound loop="1" field="90.000" ambientlevel="0.000" pansize="10.000" tilt="-1.000" mode="0" pan="-1.000" tiltsize="10.000" id="_background" nodechangekeep="1" startmutedmobile="0" level="0.300">
+        <source url="media/Ozhidanie_v_lifte_-__69785451.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition softedge="0" zoomfov="40" enabled="1" delay="none" zoomspeed="2" zoomout="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomafterinfov="140" blendtime="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" contextfullscreen="1" contextprojections="0" rubberband="0" hideabout="0" contextvr="1" sensitivity="8" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" lockedmouse="0" speedwheel="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="-1.2" leveltilesize="510" levelbias="0.400" width="1344" levelbiashidpi="1.000" levelingroll="-7.0999999999999996" overlap="1" height="1344">
+      <level preload="0" predecode="0" width="1344" height="1344"/>
+      <level preload="0" predecode="0" width="672" height="672"/>
+      <level preload="1" predecode="1" width="336" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="270">
+      <start tilt="0" pan="0" projection="4" fov="100"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fov="140" fovfisheye="360" fovstereographic="330"/>
+    </view>
+    <userdata longitude="30.295428" nodeid="node2" info="" altitude="11.73" copyright="" latitude="59.929731" tags="" title="" source="" customnodeid="" description="" comment="" datetime="14.10.2025 17:48" author="" heading="270"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label backgroundalpha="1" wordwrap="1" enabled="1" background="1" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" width="180" border="1" textalpha="1" height="20"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <polyhotspot url="{node1}" id="Poly01" description="" target="" title="Улица">
+        <polystring>-262.39/20.32|-262.82/-36.57|-292/-32.49|-289.63/17.67</polystring>
+      </polyhotspot>
+      <polyhotspot url="{node3}" id="Poly02" description="" target="" title="Лестничная площадка">
+        <polystring>-36.76/27.21|-35.53/-27.08|-61.28/-35.98|-62.71/33.49</polystring>
+      </polyhotspot>
+      <hotspot tilt="11.71" url="https://www.youtube.com/watch?v=MrEiakhlfKw" pan="-203.18" id="Point01" description="" target="_blank" skinid="ht_url" title="Бэстейдж"/>
+    </hotspots>
+    <media>
+      <sound loop="1" field="90.000" ambientlevel="0.000" pansize="10.000" tilt="-1.000" mode="0" pan="-1.000" tiltsize="10.000" id="_background" nodechangekeep="1" startmutedmobile="0" level="0.300">
+        <source url="media/Ozhidanie_v_lifte_-__69785451.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition softedge="0" zoomfov="40" enabled="1" delay="none" zoomspeed="2" zoomout="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomafterinfov="140" blendtime="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" contextfullscreen="1" contextprojections="0" rubberband="0" hideabout="0" contextvr="1" sensitivity="8" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" lockedmouse="0" speedwheel="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="-2" leveltilesize="510" levelbias="0.400" width="1344" levelbiashidpi="1.000" levelingroll="-2.5" overlap="1" height="1344">
+      <level preload="0" predecode="0" width="1344" height="1344"/>
+      <level preload="0" predecode="0" width="672" height="672"/>
+      <level preload="1" predecode="1" width="336" height="336"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="2" pannorth="45">
+      <start tilt="0" pan="0" projection="4" fov="100"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fov="140" fovfisheye="360" fovstereographic="330"/>
+    </view>
+    <userdata longitude="30.295306" nodeid="node3" info="" altitude="8.26" copyright="" latitude="59.928869" tags="" title="" source="" customnodeid="" description="" comment="" datetime="14.10.2025 18:03" author="" heading="45"/>
+    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
+      <label backgroundalpha="1" wordwrap="1" enabled="1" background="1" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" borderradius="1" width="180" border="1" textalpha="1" height="20"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <polyhotspot url="{node1}" id="Poly01" description="" target="" title="Улица">
+        <polystring>-152.59/6.98|-151.49/-17.53|-168.41/-19.74|-169.23/8.48</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <sound loop="1" field="90.000" ambientlevel="0.000" pansize="10.000" tilt="-1.000" mode="0" pan="-1.000" tiltsize="10.000" id="_background" nodechangekeep="1" startmutedmobile="0" level="0.300">
+        <source url="media/Ozhidanie_v_lifte_-__69785451.mp3" mono="0"/>
+      </sound>
+    </media>
+    <transition softedge="0" zoomfov="40" enabled="1" delay="none" zoomspeed="2" zoomout="0" type="crossdissolve" zoomoutpause="1" blendcolor="0x000000" zoomafteroutfov="40" zoomin="0" zoomafterinfov="140" blendtime="1"/>
+    <animation useinautorotation="0" clipsrandom="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" contextfullscreen="1" contextprojections="0" rubberband="0" hideabout="0" contextvr="1" sensitivity="8" lockedkeyboard="0" zoomcentercursor="1" invertcontrol="1" lockedmouse="0" speedwheel="1" dblclickfullscreen="0" lockedwheel="0" invertwheel="0"/>
+  </panorama>
+  <masternode>
+    <userdata description="" copyright="" comment="" title="" tags="" author=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
